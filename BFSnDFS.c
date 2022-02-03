@@ -64,6 +64,19 @@ void bfs(int g[][7],int start, int n){
     }
 }
 
+void dfs(int g[][7], int start, int n){
+    static int visited[7]={0};
+
+    if(visited[start]==0){
+        visited[start]=1;
+        printf("%d",start);
+        for(int j=1;j<n;j++){
+            if(g[start][j]==1 && visited[j]==0){
+                dfs(g,j,n);
+            }
+        }
+    }
+}
 
 
 
@@ -77,6 +90,8 @@ int main(){
                   {0,0,0,0,1,0,0},
                   {0,0,0,0,1,0,0} };
 
-    bfs(g,1,7);
+     bfs(g,1,7);
+    printf("\n");
+    dfs(g,2,7);
     return 0;
 }
