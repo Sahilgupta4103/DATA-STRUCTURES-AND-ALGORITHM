@@ -1,6 +1,8 @@
 #include<iostream>
 using namespace std;
 
+//fucked up!!!
+
 
 void print(int a[]){
     for(int i=1;i<8;i++){
