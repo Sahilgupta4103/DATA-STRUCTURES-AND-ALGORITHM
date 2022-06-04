@@ -26,7 +26,7 @@ void countSort(int a[], int n)
     {
         c[a[i]]++;
     }
-     int h=0,j=0;   // i in on c array and j is on A array to fill sortedly.
+     int h=0,j=0;   // h in on c array and j is on A array to fill sortedly.
     while(h<max+1){
 
         if(c[h]>0){
