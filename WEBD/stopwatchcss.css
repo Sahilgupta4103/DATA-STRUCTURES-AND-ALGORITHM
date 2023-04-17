@@ -1,0 +1,12 @@
+#stopwatch {
+  border: 2px solid black;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+}
+
+.container {
+  height: 100vh;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .calc {
+        border: 2px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-self: center;
+      }
+      .entry {
+        margin: 10px;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      #button {
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+      }
+      .solution {
+        margin: 10px;
+        padding: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="calc">
+      <div class="entry">
+        Enter Your Entry : <input type="text " id="answer" />
+      </div>
+      <div id="button">
+        <input type="button" value="Calculate" onclick="calc()" />
+      </div>
+      <div class="solution">Answer : <input type="text" id="sol" /></div>
+    </div>
+
+    <script>
+      function calc() {
+        var x = document.getElementById("answer").value;
+        var y = x * 1.8 + 32;
+        var z = document.getElementById("sol");
+        z.value = y;
+      }
+    </script>
+  </body>
+</html>

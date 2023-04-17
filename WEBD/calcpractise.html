@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .formstyle {
+        width: 100px;
+        height: 250 px;
+        margin: 10px;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="formstyle">
+      <form name="calc">
+        <div class="answer1">
+          <input type="text" value="" name="ip1" id="ip" />
+        </div>
+        <div class="answer2">
+          <input type="text" value="Result" name="op1" id="op" />
+        </div>
+        <input type="button" value=" 1 " onclick="calc.ip1.value+='1'" />
+        <input type="button" value=" 2 " onclick="calc.ip1.value+='2'" />
+        <input type="button" value=" 3 " onclick="calc.ip1.value+='3'" />
+
+        <input type="button" value=" 4 " onclick="calc.ip1.value+='4'" />
+        <input type="button" value=" 5 " onclick="calc.ip1.value+='5'" />
+        <input type="button" value=" 6 " onclick="calc.ip1.value+='6'" />
+
+        <input type="button" value=" 7 " onclick="calc.ip1.value+='7'" />
+        <input type="button" value=" 8 " onclick="calc.ip1.value+='8'" />
+        <input type="button" value=" 9 " onclick="calc.ip1.value+='9'" />
+
+        <input type="button" value=" + " onclick="calc.ip1.value+='+'" />
+        <input type="button" value=" - " onclick="calc.ip1.value+='-'" />
+        <input type="button" value=" * " onclick="calc.ip1.value+='*'" />
+
+        <input type="button" value=" / " onclick="calc.ip1.value+='/'" />
+        <input type="button" value=" 0 " onclick="calc.ip1.value+='0'" />
+        <input
+          type="button"
+          value=" = "
+          onclick="calc.op1.value = eval(calc.ip1.value) "
+        />
+        <input type="button" value="Clear All" onclick="calc.ip1.value='' " />
+      </form>
+    </div>
+  </body>
+</html>

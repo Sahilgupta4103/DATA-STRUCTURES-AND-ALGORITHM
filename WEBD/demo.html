@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <li class="list1">list 1</li>
+        <li>list 2</li>
+        <li class="list1">list 3</li>
+        <li>list 4</li>
+
+
+        <script>
+            let a = document.getElementsByClassName("list1");
+            for(let i = 0;i<a.length;i++){
+                a[i].innerHTML = "newLIST";
+            }
+            console.log(a);
+        </script>
+</body>
+</html>
