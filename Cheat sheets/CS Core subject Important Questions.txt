@@ -1,0 +1,106 @@
+Operating System:
+
+Process Introduction 
+What is a microprocessor?
+Explain the internal architecture of a RAM.
+How compiler compiles the interlinked libraries?
+Explain the implementation of virtual methods, dynamic binding, vtables etc.
+Multithreading 
+What is Multithreading?
+What is the difference between a thread and a process?
+Process Scheduling 
+FCFS Scheduling.
+Shortest Job First Scheduling.
+SRTF Scheduling.
+LRTF Scheduling.
+Priority Scheduling.
+Round Robin scheduling
+Process Synchronization & Deadlock 
+What is a Semaphore and a Mutex?
+Explain the Producer-Consumer problem.
+What is Deadlock?
+What are the four necessary conditions for Deadlock?
+What is Critical Section?
+Explain the Banker’s Algorithm.
+What are Spinlocks?
+Memory Management 
+What is Cache?
+Where does cache lies in an Operating System?
+Difference between Cache and HashMap.
+Explain Demand paging and thrashing.
+What is Segmentation?
+In which memory, the laptop password is being saved?
+How will you analyze Out of memory exceptions in your application?
+Explain internal fragmentation and external fragmentation.
+Difference between the associative mapping and direct mapping in a cache.
+If RAM size is 4GB, if 4 processes of size 2GB are launched! What happens? 
+(Ans: This can be done using Virtual Memory)
+If process size is not limited by the size of main memory then what is its limitation? 
+(Ans: This can be done using Logical Address Space)
+Explain how memory location is accessed
+What is Paging and Why do we need Paging?
+What is a Page Table?
+What is TLB?
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+DBMS:
+
+Properties of RDBMS?
+ACID properties
+Keys in DBMS.
+Difference between Vertical and Horizontal Scaling.
+Sharding
+DML, DCL, DDL, TCL and their commands.
+Indexing in DBMS.
+What is normalization and de-normalization and why do we need it?
+Normal Forms
+Conflict Serializability
+Can Primary key contain two entities? 
+(Ans: No, there is one and only one primary key in any relationship. Refer this)
+Concurrency Control
+SQL queries (related to nested query).
+Insertion in B trees
+Types of JOIN in DBMS.
+Difference between INNER and OUTER JOIN.
+Write a SQL query to retrieve furniture from database whose dimensions(Width, Height, Length) match with the given dimension. 
+Ans.
+
+SELECT *
+FROM Furnitures
+WHERE Furnitures.Length = GivenLength
+  AND Furnitures.Breadth = GivenBreadth
+  AND Furnitures.Height = GivenHeight
+Print the second largest number in the table.
+Explain 3 tier architecture and 2 tier architectures.
+Write a SQL query to find the 4th maximum element from a table
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Computer Networks: 
+
+What is TCP?
+Name layers of the OSI Model with protocols belonging to the layers
+What is the significance of Data Link Layer
+What is Access Points APs model?
+What does the network layer do
+In which layer are the Routers?
+What are the different types of delays?
+Explain Firewalls?
+What are the different types of firewall?
+What does transport layer do
+IPv4 vs IPv6
+What is the difference b/w private IP and Public IP?
+Explain in detail 3 way Handshaking
+What is Cryptography and what are the Encryption Methods?
+What are the Application layer protocols?
+Explain DNS
+On entering a URL in a browser, explain the detailed procedure in which the request is handled by the browser and the result is obtained for the given search query.
+How will you create persistent connections between the server and the client?
+Explain server-side loadbalancer
+What is FTP? How is FTP different from Secure FTP?
+What is SMTP
+Explain the Working of HTTP and HTTPs.
+Where are ports?
+What Port numbers of different protocols
+How to prevent SYN DDoS attack?
